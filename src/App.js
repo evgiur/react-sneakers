@@ -3,12 +3,13 @@
 function App() {
   return (
     <div className="wrapper clear">
+      {/* HEADER */}
       <header className="header">
         <div className="headerLeft">
           <img width={40} height={40} src="/img/logo.png" alt="logo"/>
           
           <div>
-            <h3 className="h3">React Sneakers</h3>
+            <h3>React Sneakers</h3>
             <p>Best sneakers shop</p>
           </div>
 
@@ -24,9 +25,22 @@ function App() {
           </li>
         </ul>
       </header>
+      
+      {/*CONTENT*/}
       <div className="content">
         <h1> All sneakers</h1>
-        ,,,
+        
+        <div className="card">
+          <img src="" alt="" ></img>
+          <p></p>
+          <div>
+            <div>
+              <span>Price</span>
+              <b>200 $</b>
+            </div>
+          </div>
+          
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: system-ui;
+  font-family: 'Inter', system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e7f6ff;
@@ -40,6 +40,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+  border-bottom: 1px solid #eaeaea;
 
   img {
     margin-right: 15px;
@@ -49,12 +50,17 @@ header {
     display: flex;
     justify-content: center;
 
-    h3 {
-      margin: 0px;
-      p{
+    div {
+      h3 {
+        text-transform: uppercase;
         margin: 0px;
       }
-    } 
+      p {
+        margin: 0px;
+      }
+    }
+
+    
   }
 
   .headerRight {
@@ -65,7 +71,10 @@ header {
   }
 }
 
+.content {
+  padding: 40px;
 
-
-
-
+  h1 {
+    margin: 0px;
+  }
+}
