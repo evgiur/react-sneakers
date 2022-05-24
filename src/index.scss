@@ -65,7 +65,7 @@ header {
 
   .headerRight {
     display: flex;
-    .card {
+    .shoppingCart {
       margin-right: 20px;
     }
   }
@@ -77,4 +77,30 @@ header {
   h1 {
     margin: 0px;
   }
+}
+
+.itemCard {
+  border: 1px solid #F3E3F3;
+  padding: 30px;
+  width: 210px;
+  border-radius: 20px;
+  .cardTop {
+    display: flex;
+    justify-content: space-between;
+
+    .cardPrice {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+
+.button {
+  background: #ffffff;
+  border: 1px solid #f2f2f2;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 32px;
+  width: 32px;
+  cursor: pointer;
 }

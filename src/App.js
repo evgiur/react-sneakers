@@ -15,13 +15,14 @@ function App() {
 
         </div>
         <ul className="headerRight">
-          <li className="card">
-            <img width={18} height={18} src="/img/card.svg" alt="card"/>
+          <li className="shoppingCart">
+            <img width={18} height={18} src="/img/card.svg" alt="shoppingCart"/>
             <span> 1205 usd</span>
           </li>
 
           <li>
             <img width={18} height={18} src="/img/user.svg" alt="user"/>
+            <span> User Name</span>
           </li>
         </ul>
       </header>
@@ -30,14 +31,17 @@ function App() {
       <div className="content">
         <h1> All sneakers</h1>
         
-        <div className="card">
-          <img src="" alt="" ></img>
-          <p></p>
-          <div>
-            <div>
-              <span>Price</span>
-              <b>200 $</b>
+        <div className="itemCard">
+          <img width={133} height={112} src="img/sneakers/1.jpg" alt="Sneakers"/>
+          <p>Male sneakers Nike Blazer Mid Suede</p>
+          <div className="cardTop">
+            <div className="cardPrice">
+              <span>Price: </span>
+              <b>200$</b>              
             </div>
+            <button className="button">
+              <img width={11} height={11} src="/img/plus.svg" alt="plus"/>
+            </button>
           </div>
           
         </div>
