@@ -59,8 +59,10 @@ header {
         margin: 0px;
       }
     }
+  }
 
-    
+  .description {
+    opacity: 0.5;
   }
 
   .headerRight {
@@ -73,11 +75,10 @@ header {
 
 .content {
   padding: 40px;
+}
 
-  h1 {
-    margin: 0px;
-    margin-bottom: 40px;
-  }
+.sneakers {
+  display: flex;
 }
 
 .itemCard {
@@ -85,6 +86,18 @@ header {
   padding: 30px;
   width: 210px;
   border-radius: 20px;
+  margin-right: 30px;
+
+  span {
+    font-size: 13px;
+    opacity: 0.5;
+    text-transform: uppercase;
+  }
+
+  b {
+    font-size: 13px;
+  }
+
   .cardTop {
     display: flex;
     justify-content: space-between;
@@ -109,4 +122,18 @@ header {
   height: 32px;
   width: 32px;
   cursor: pointer;
+}
+
+.search-box {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  
+  h1 {
+    margin: 0px;
+    margin-bottom: 40px;
+  }
+  .search-line {
+    border: 1px solid #f3f3f3;
+  }
 }
