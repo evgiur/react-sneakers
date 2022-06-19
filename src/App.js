@@ -4,18 +4,54 @@ function App() {
       <div className="overlay">
         <div className="drawer">
           <h2>Cart</h2>
-          <div className="cartItem">
-            <img
-              className="cartItemImg"
-              src="/img/sneakers/1.jpg"
-              alt="Sneakers"
-            />
-            <div>
-              <p>Male sneakers Nike Air Max 270</p>
-              <b>200 $</b>
+
+          <div className="items">
+            <div className="cartItem">
+              <div
+                className="cartItemImg"
+                style={{ backgroundImage: "url(/img/sneakers/1.jpg)" }}
+              ></div>
+              <div>
+                <p>Male sneakers Nike Air Max 270</p>
+                <b>200 $</b>
+              </div>
+              <img
+                className="removeBtn"
+                src="/img/btn-remove.svg"
+                alt="Remove"
+              />
             </div>
-            <img className="removeBtn" src="/img/btn-remove.svg" alt="Remove" />
+
+            <div className="cartItem">
+              <div
+                className="cartItemImg"
+                style={{ backgroundImage: "url(/img/sneakers/1.jpg)" }}
+              ></div>
+              <div>
+                <p>Male sneakers Nike Air Max 270</p>
+                <b>200 $</b>
+              </div>
+              <img
+                className="removeBtn"
+                src="/img/btn-remove.svg"
+                alt="Remove"
+              />
+            </div>
           </div>
+
+          <ul>
+            <li className="total">
+              <span>Amount: </span>
+              <div></div>
+              <b>400$</b>
+            </li>
+
+            <li>
+              <span>tax 5%: </span>
+              <div></div>
+              <b>20$</b>
+            </li>
+          </ul>
         </div>
       </div>
 

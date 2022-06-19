@@ -176,43 +176,51 @@ header {
 .drawer {
   position: absolute;
   height: 100%;
-  width: 385px;
+  width: 420px;
   right: 0; 
   background: #ffffff;
   box-shadow: -10px 4px 24px rgba(0, 0, 0, 0.1);
   padding: 20px;
 
   h2 {
-    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .total {
+    display: flex;
   }
 }
 
 .cartItem {
   display: flex;
   align-items: center;
-  border: 1px solid #8c8c8c
-  border-radius 20px;
+  border: 1px solid #F3E3F3;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
 
   .cartItemImg {
     height: 70px;
     width: 70px;
     background-size: contain;
-    background-position: 0 -7px;
+    background-position: 0 10px;
     background-repeat: no-repeat;
     margin-right: 20px;
   }
 
   div {
     margin-right: 20px;
-  }  
+
     p {
       font-size: 16px;
       margin-bottom: 5px;
     }
 
-  b{
-    font-size: 14px;
-  }
+    b{
+      font-size: 14px;
+    }
+  }  
+    
 
   .removeBtn {
     opacity: 0.4;
