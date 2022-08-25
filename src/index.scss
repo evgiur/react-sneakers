@@ -231,3 +231,15 @@ header {
     }
   }
 }
+
+.totalBlock {
+  li {
+    display: flex;
+    align-items: flex-end;
+  }
+  div{
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px dashed #dfdfdf;
+  }
+}

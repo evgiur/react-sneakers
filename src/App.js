@@ -39,7 +39,7 @@ function App() {
             </div>
           </div>
 
-          <ul>
+          <ul className="totalBlock">
             <li className="total">
               <span>Amount: </span>
               <div></div>
