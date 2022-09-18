@@ -53,7 +53,7 @@ function App() {
             </li>
           </ul>
 
-          <button>Plece order</button>
+          <button>Place order</button>
         </div>
       </div>
 
