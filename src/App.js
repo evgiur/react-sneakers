@@ -52,6 +52,8 @@ function App() {
               <b>20$</b>
             </li>
           </ul>
+
+          <button>Plece order</button>
         </div>
       </div>
 
