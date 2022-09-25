@@ -185,23 +185,14 @@ header {
   padding: 20px;
 
   h2 {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
   }
 
   .total {
     display: flex;
   }
-}
-
-.button {
-  width: 100%;
-  height: 55px;
-  background: #9dd558;
-  border-radius: 18px;
-  border: 0;
-  color: #fff;
-  font-size: 16px;
-  font-weight: 500px;
 }
 
 .cartItem {
@@ -232,18 +223,29 @@ header {
     b{
       font-size: 14px;
     }
-  }  
-    
 
-  .removeBtn {
-    opacity: 0.4;
-    cursor: pointer;
-    transition: opacity 0.15s ease-in-out;
-    &:hover {
-      opacity: 1;
+    .button{
+      &:active{
+        background-color: #dfdfdf;
+      }
     }
-  }
+  }  
 }
+
+.removeBtn {
+  opacity: 0.4;
+  cursor: pointer;
+  transition: opacity 0.15s ease-in-out;
+  &:hover {
+    opacity: 1;
+  }
+
+  &:active{
+    color: #aa2a2ad6;
+  }
+
+}
+
 
 .totalBlock {
   ul{
@@ -259,4 +261,25 @@ header {
         height: 1px;
         border-bottom: 1px dashed #dfdfdf;
       }
+}
+
+.byButton {
+  width: 100%;
+  height: 55px;
+  background: #9dd558;
+  border-radius: 18px;
+  border: 0;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500px;
+  cursor: pointer;
+  transition: background 0.1s ease-in-out;
+
+  &:hover{
+    background: lighten(#9dd558, 5%);
+  }
+
+  &:active{
+    background: darken(#9dd558, 5%);
+  }
 }

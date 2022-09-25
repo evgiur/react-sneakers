@@ -3,7 +3,13 @@ function App() {
     <div className="wrapper clear">
       <div className="overlay">
         <div className="drawer">
-          <h2>Cart</h2>
+          <h2>Cart 
+            <img
+              className="removeBtn"
+              src="/img/btn-remove.svg"
+              alt="Remove"
+            />
+          </h2>
 
           <div className="items">
             <div className="cartItem">
@@ -53,7 +59,7 @@ function App() {
             </li>
           </ul>
 
-          <button>Place order</button>
+          <button className="byButton">Place order</button>
         </div>
       </div>
 
