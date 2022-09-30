@@ -1,5 +1,5 @@
 function CartDrawer(){
-    <div style = {{display: 'none'}} className="overlay">
+    /*<div style = {{display: 'none'}} className="overlay">*/
         <div className="drawer">
           <h2>Cart 
             <img
@@ -59,7 +59,7 @@ function CartDrawer(){
 
           <button className="byButton">Place order</button>
         </div>
-    </div>  
+    /*</div> */
 }
 
 export default CartDrawer

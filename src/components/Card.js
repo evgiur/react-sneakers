@@ -1,4 +1,4 @@
-function Card () {
+function Card (props) {
     return (
         <div className="itemCard">
     
@@ -13,7 +13,7 @@ function Card () {
                 alt="Sneakers"
             />
 
-            <h5>Male sneakers Nike Blazer Mid Suede</h5>
+            <h5>{props.title}</h5>
 
             <div className="cardTop">
                 <div className="cardPrice">
