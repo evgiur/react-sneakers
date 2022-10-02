@@ -9,7 +9,7 @@ function Card (props) {
             <img
                 width={133}
                 height={112}
-                src="img/sneakers/1.jpg"
+                src={props.imageUrl}
                 alt="Sneakers"
             />
 
@@ -18,7 +18,7 @@ function Card (props) {
             <div className="cardTop">
                 <div className="cardPrice">
                     <span>Price: </span>
-                    <b>200 $</b>
+                    <b>{props.price} $</b>
                 </div>
 
                 <button className="button">
