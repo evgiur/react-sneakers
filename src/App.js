@@ -1,4 +1,4 @@
-import Card from './components/Card.js';
+import Card from './components/Card';
 import Header from './components/Header.js';
 import CartDrawer from './components/CartDrawer.js';
 

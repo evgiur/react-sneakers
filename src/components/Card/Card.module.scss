@@ -1,0 +1,76 @@
+.itemCard {
+    border: 1px solid #F3E3F3;
+    padding: 30px;
+    width: 220px;
+    border-radius: 20px;
+    margin-right: 30px;
+    transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+    
+    &:hover {
+      box-shadow: 0 20px 35px rgba(0, 0, 0, 0.06);
+      transform: translateY(-5px);
+    }
+  
+    span {
+      font-size: 13px;
+      opacity: 0.5;
+      text-transform: uppercase;
+    }
+  
+    b {
+      font-size: 13px;
+    }
+  
+    .favorite {
+      position: absolute;
+      cursor: pointer;
+    }
+  
+    .cardTop {
+      display: flex;
+      justify-content: space-between;
+  
+      .cardPrice {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  
+    h5 {
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+  
+  .button {
+    background: #ffffff;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 32px;
+    width: 32px;
+    cursor: pointer;
+  }
+  
+  .search-box {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    
+    h1 {
+      margin: 0px;
+      margin-bottom: 40px;
+    }
+    .search-line {
+      border: 1px solid #f3f3f3;
+      border-radius: 10px;
+      padding: 0 15px;
+  
+      input {
+        border: 0;
+        padding: 13px;
+        font-size: 16px;
+        width: 200px;
+      }
+    }
+  }

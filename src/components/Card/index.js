@@ -1,8 +1,11 @@
+import styles from './Card.module.scss';
+
+
 function Card (props) {
     return (
-        <div className="itemCard">
+        <div className={styles.itemCard}>
     
-            <div className="favorite">
+            <div className={styles.favorite}>
                 <img src="img/unliked.svg" alt="Unliked" />
             </div>
 
