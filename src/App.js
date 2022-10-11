@@ -44,7 +44,13 @@ function App() {
         <div className="sneakers">
           {
             arr.map((obj) => (
-              <Card title={obj.title} price={obj.price} imageUrl={obj.imageUrl}/>
+              <Card 
+                title={obj.title} 
+                price={obj.price} 
+                imageUrl={obj.imageUrl}
+                onFavorite={() => console.log('Добавлено в избранное')}
+                onPlus={() => console.log('Добавлено в корзину')}
+              />
             ))
           }
         </div>
